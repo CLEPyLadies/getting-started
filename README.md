@@ -9,11 +9,12 @@ Install most recent stable version of Python from [Python.org](https://www.pytho
 If you do not already have a favorite text editor or IDE, install the community version of [VS code](https://code.visualstudio.com/download/).
 
 From the command line, test if you have python properly installed.
-- `python --version`
+- `python --version` or
+- `python3 --version`
 
 Then ensure you have pip
-- `python`
-- `>>> import pip`
+- `pip show pip` or
+- `pip3 show pip`
 
 You use pip by typing
 `python -m pip install <<package-name>>`
